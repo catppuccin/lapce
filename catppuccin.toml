@@ -72,6 +72,8 @@ rosewater = "#F5E0DC"
 "completion.current" = "$black1"
 
 "hover.background" = "$black0"
+"activity.background" = "$black0"
+"activity.current" = "$black1"
 
 "panel.background" = "$black2"
 "panel.current" = "$black1"

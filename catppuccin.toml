@@ -1,5 +1,18 @@
+[theme]
+name = "Catppuccin"
+
+[ui]
+font-family = ""
+font-size = 13
+header-height = 35
+status-height = 25
+tab-min-width = 100
+activity-width = 50
+scroll-width = 10
+drop-shadow-width = 0
 
 # https://github.com/catppuccin/catppuccin
+[theme.base]
 flamigo = "#F2CDCD"
 mauve = "#DDB6F2"
 pink = "#F5C2E7"
@@ -24,13 +37,79 @@ white = "#D9E0EE"
 lavender = "#C9CBFF" 
 rosewater = "#F5E0DC"
 
+
+[theme.syntax]
+"comment" = "$gray2"
+"constant" = "$yellow"
+"type" = "$yellow"
+"typeAlias" = "$yellow"
+"number" = "$yellow"
+"enum" = "$yellow"
+"struct" = "$yellow"
+"structure" = "$yellow"
+"interface" = "$yellow"
+"attribute" = "$yellow"
+"constructor" = "$yellow"
+"function" = "$blue"
+"method" = "$blue"
+"function.method" = "$blue"
+"keyword" = "$maroon"
+"selfKeyword" = "$maroon"
+"field" = "$red"
+"property" = "$red"
+"enumMember" = "$red"
+"enum-member" = "$red"
+"variable.other.member" = "$red"
+"string" = "$green"
+"type.builtin" = "$sky"
+"builtinType" = "$sky"
+"escape" = "$sky"
+"embedded" = "$sky"
+
+[theme.ui]
 "lapce.active_tab" = "$black0"
 "lapce.inactive_tab" = "$black4"
 "lapce.error" = "$red"
 "lapce.warn" = "$yellow"
 "lapce.dropdown_shadow" = "$black1"
-"lapce.border" = "$black0"
+"lapce.border" = "$black1"
 "lapce.scroll_bar" = "$grey0"
+
+"editor.background" = "$black2"
+"editor.foreground" = "$white"
+"editor.dim" = "$gray1"
+"editor.focus" = "$blue"
+"editor.caret" = "$rosewater"
+"editor.selection" = "$black3"
+"editor.current_line" = "$black1"
+"editor.link" = "$sky"
+
+"source_control.added" = "#50A14F32"
+"source_control.removed" = "#FF526632"
+"source_control.modified" = "#0184BC32"
+
+"palette.background" = "$black1"
+"palette.current" = "$black2"
+
+"completion.background" = "$black0"
+"completion.current" = "$black1"
+
+"hover.background" = "$black0"
+
+"activity.background" = "$black0"
+"activity.current" = "$black1"
+
+"panel.background" = "$black2"
+"panel.current" = "$black1"
+"panel.hovered" = "$black3"
+
+"status.background" = "$black1"
+"status.modal.normal" = "$blue"
+"status.modal.insert" = "$red"
+"status.modal.visual" = "$yellow"
+"status.modal.terminal" = "$maroon"
+
+"markdown.blockquote" = "$gray0"
 
 "terminal.cursor" = "$rosewater"
 "terminal.foreground" = "$white"
@@ -51,71 +130,3 @@ rosewater = "#F5E0DC"
 "terminal.bright_cyan" = "$sky"
 "terminal.bright_magenta" = "$mauve"
 "terminal.bright_black" = "$black4"
-
-"editor.background" = "$black2"
-"editor.foreground" = "$white"
-"editor.dim" = "$gray1"
-"editor.focus" = "$blue"
-"editor.caret" = "$rosewater"
-"editor.selection" = "$black3"
-"editor.current_line" = "$black1"
-"editor.link" = "$rosewater"
-
-"source_control.added" = "$black3"
-"source_control.removed" = "$green"
-"source_control.modified" = "$sky"
-
-"palette.background" = "$black1"
-"palette.current" = "$black2"
-
-"completion.background" = "$black0"
-"completion.current" = "$black1"
-
-"hover.background" = "$black0"
-"activity.background" = "$black0"
-"activity.current" = "$black1"
-
-"panel.background" = "$black2"
-"panel.current" = "$black1"
-"panel.hovered" = "$black3"
-
-"status.background" = "$black1"
-"status.modal.normal" = "$blue"
-"status.modal.insert" = "$red"
-"status.modal.visual" = "$yellow"
-"status.modal.terminal" = "$maroon"
-
-"markdown.blockquote" = "$gray0"
-
-"style.comment" = "$gray2"
-
-"style.constant" = "$yellow"
-"style.type" = "$yellow"
-"style.typeAlias" = "$yellow"
-"style.number" = "$yellow"
-"style.enum" = "$yellow"
-"style.struct" = "$yellow"
-"style.structure" = "$yellow"
-"style.interface" = "$yellow"
-"style.attribute" = "$yellow"
-"style.constructor" = "$yellow"
-
-"style.function" = "$blue"
-"style.method" = "$blue"
-"style.function.method" = "$blue"
-
-"style.keyword" = "$maroon"
-"style.selfKeyword" = "$maroon"
-
-"style.field" = "$red"
-"style.property" = "$red"
-"style.enumMember" = "$red"
-"style.enum-member" = "$red"
-"style.variable.other.member" = "$red"
-
-"style.string" = "$green"
-
-"style.type.builtin" = "$sky"
-"style.builtinType" = "$sky"
-"style.escape" = "$sky"
-"style.embedded" = "$sky"

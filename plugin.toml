@@ -4,4 +4,4 @@ description = "The Catppuccin Theme"
 version = "0.1.0"
 author = "ghishadow"
 repository = "ghishadow/lapce-catppuccin"
-themes = ["catppuccin.toml"]
+themes = ["catppuccin-latte.toml", "catppuccin-frappe.toml", "catppuccin-macchiato.toml", "catppuccin-mocha.toml "]

@@ -1,0 +1,136 @@
+
+[theme]
+name = "Catppuccin Mocha"
+
+[ui]
+font-family = ""
+font-size = 13
+header-height = 35
+status-height = 25
+tab-min-width = 100
+activity-width = 50
+scroll-width = 10
+drop-shadow-width = 0
+
+# https://github.com/catppuccin/catppuccin
+[theme.base]
+rosewater = "#f5e0dc"
+flamigo = "#f2cdcd"
+pink = "#f5c2e7"
+mauve = "#cba6f7"
+red = "#f38ba8"
+maroon = "#eba0ac"
+peach = "#fab387"
+yellow = "#f9e2af"
+green = "#a6e3a1" 
+teal = "#94e2d5"
+sky = "#89dceb"
+sapphire = "#74c7ec"
+blue = "#89b4fa"
+lavender = "#b4befe"
+text = "#cdd6f4"
+subtext1 = "#bac2de"
+subtext0 = "#a6adc8"
+overlay2 = "#9399b2"
+overlay1 = "#7f849c"
+overlay0 = "#6c7086"
+surface2 = "#585b70"
+surface1 = "#45475a"
+surface0 = "#313244"
+base = "#1e1e2e"
+mantle = "#181825"
+crust = "#11111b"
+
+[theme.syntax]
+"comment" = "$subtext1"
+"constant" = "$yellow"
+"type" = "$yellow"
+"typeAlias" = "$yellow"
+"number" = "$yellow"
+"enum" = "$yellow"
+"struct" = "$yellow"
+"structure" = "$yellow"
+"interface" = "$yellow"
+"attribute" = "$yellow"
+"constructor" = "$yellow"
+"function" = "$blue"
+"method" = "$blue"
+"function.method" = "$blue"
+"keyword" = "$purple"
+"selfKeyword" = "$purple"
+"field" = "$red"
+"property" = "$red"
+"enumMember" = "$red"
+"enum-member" = "$red"
+"variable.other.member" = "$red"
+"string" = "$green"
+"type.builtin" = "$cyan"
+"builtinType" = "$cyan"
+"escape" = "$cyan"
+"embedded" = "$cyan"
+
+[theme.ui]
+"lapce.active_tab" = "$black"
+"lapce.inactive_tab" = "$grey"
+"lapce.error" = "$red"
+"lapce.warn" = "$yellow"
+"lapce.dropdown_shadow" = "$mantle"
+"lapce.border" = "$mantle"
+"lapce.scroll_bar" = "$grey"
+
+
+"editor.background" = "$base"
+"editor.foreground" = "$rosewater"
+"editor.dim" = "$subtext1"
+"editor.focus" = "#CCCCCC"
+"editor.caret" = "$teal"
+"editor.selection" = "$grey"
+"editor.current_line" = "#2C313C"
+"editor.link" = "$cyan"
+
+"source_control.added" = "##a6d18932"
+"source_control.removed" = "#ea999c32"
+"source_control.modified" = "#8caaee32"
+
+"palette.background" = "$base"
+"palette.current" = "$surface0"
+
+"completion.background" = "$base"
+"completion.current" = "$surface0"
+
+"hover.background" = "$base"
+
+"activity.background" = "$base"
+"activity.current" = "$black"
+
+"panel.background" = "$base"
+"panel.current" = "$surface0"
+"panel.hovered" = "#343A45"
+
+"status.background" = "$base"
+"status.modal.normal" = "$blue"
+"status.modal.insert" = "$red"
+"status.modal.visual" = "$yellow"
+"status.modal.terminal" = "$purple"
+
+"markdown.blockquote" = "$subtext0"
+
+"terminal.cursor" = "$rosewater"
+"terminal.foreground" = "$rosewater"
+"terminal.background" = "$black"
+"terminal.white" = "$rosewater"
+"terminal.black" = "$black"
+"terminal.red" = "$red"
+"terminal.blue" = "$blue"
+"terminal.green" = "$green"
+"terminal.yellow" = "$yellow"
+"terminal.cyan" = "$cyan"
+"terminal.magenta" = "$magenta"
+"terminal.bright_white" = "$rosewater"
+"terminal.bright_red" = "$red"
+"terminal.bright_blue" = "$blue"
+"terminal.bright_green" = "$green"
+"terminal.bright_yellow" = "$yellow"
+"terminal.bright_cyan" = "$cyan"
+"terminal.bright_magenta" = "$magenta"
+"terminal.bright_black" = "$crust"

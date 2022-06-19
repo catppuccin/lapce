@@ -1,0 +1,147 @@
+[theme]
+name = "Catppuccin Latte"
+
+[ui]
+font-family = ""
+font-size = 13
+header-height = 35
+status-height = 25
+tab-min-width = 100
+activity-width = 50
+scroll-width = 10
+drop-shadow-width = 0
+
+# https://github.com/catppuccin/catppuccin
+[theme.base]
+rosewater = "#dc8a78"
+flamigo = "#dd7878"
+pink = "#ea76cb"
+mauve = "#8839ef"
+red = "#d20f39"
+maroon = "#e64553"
+peach = "#fe640b"
+yellow = "#df8e1d"
+green = "#40a02b" 
+teal = "#179299"
+sky = "#04a5e5"
+sapphire = "#209fb5"
+blue = "#1e66f5"
+lavender = "#7287fd"
+text = "#4c4f69"
+subtext1 = "#5c5f77"
+subtext0 = "#6c6f85"
+overlay2 = "#7c7f93"
+overlay1 = "#8c8fa1"
+overlay0 = "#9ca0b0"
+surface2 = "#acb0be"
+surface1 = "#bcc0cc"
+surface0 = "#ccd0da"
+base = "#eff1f5"
+mantle = "#e6e9ef"
+crust = "#dce0e8"
+
+
+
+black0 = "#161320"
+black1 = "#1A1826"
+black2 = "#1E1E2E"
+black3 = "#302D41"
+black4 = "#575268"
+gray0 = "#6E6C7E"
+gray1 = "#988BA2"
+gray2 = "#C3BAC6"
+white = "#D9E0EE"
+
+
+[theme.syntax]
+"comment" = "$gray2"
+"constant" = "$yellow"
+"type" = "$yellow"
+"typeAlias" = "$yellow"
+"number" = "$yellow"
+"enum" = "$yellow"
+"struct" = "$yellow"
+"structure" = "$yellow"
+"interface" = "$yellow"
+"attribute" = "$yellow"
+"constructor" = "$yellow"
+"function" = "$blue"
+"method" = "$blue"
+"function.method" = "$blue"
+"keyword" = "$maroon"
+"selfKeyword" = "$maroon"
+"field" = "$red"
+"property" = "$red"
+"enumMember" = "$red"
+"enum-member" = "$red"
+"variable.other.member" = "$red"
+"string" = "$green"
+"type.builtin" = "$sky"
+"builtinType" = "$sky"
+"escape" = "$sky"
+"embedded" = "$sky"
+
+[theme.ui]
+"lapce.active_tab" = "$base"
+"lapce.inactive_tab" = "$grey"
+"lapce.error" = "#E51400"
+"lapce.warn" = "#E9A700"
+"lapce.dropdown_shadow" = "#B4B4B4"
+"lapce.border" = "#B4B4B4"
+"lapce.scroll_bar" = "#B4B4B4"
+
+"terminal.cursor" = "$black"
+"terminal.foreground" = "$black"
+"terminal.background" = "$base"
+"terminal.white" = "$white"
+"terminal.black" = "$black"
+"terminal.red" = "$red"
+"terminal.blue" = "$blue"
+"terminal.green" = "$green"
+"terminal.yellow" = "$yellow"
+"terminal.cyan" = "$cyan"
+"terminal.magenta" = "$magenta"
+"terminal.bright_white" = "#090A0B"
+"terminal.bright_red" = "$red"
+"terminal.bright_blue" = "$blue"
+"terminal.bright_green" = "$green"
+"terminal.bright_yellow" = "$yellow"
+"terminal.bright_cyan" = "$cyan"
+"terminal.bright_magenta" = "$magenta"
+"terminal.bright_black" = "#A0A1A7"
+
+"editor.background" = "$base"
+"editor.foreground" = "$black"
+"editor.dim" = "#A0A1A7"
+"editor.focus" = "#000000"
+"editor.caret" = "#526FFF"
+"editor.selection" = "$grey"
+"editor.current_line" = "#F2F2F2"
+"editor.link" = "$cyan"
+
+"source_control.added" = "#50A14F32"
+"source_control.removed" = "#FF526632"
+"source_control.modified" = "#0184BC32"
+
+"palette.background" = "#EAEAEB"
+"palette.current" = "#DBDBDC"
+
+"completion.background" = "#EAEAEB"
+"completion.current" = "#DBDBDC"
+
+"hover.background" = "#EAEAEB"
+
+"activity.background" = "#EAEAEB"
+"activity.current" = "$white"
+
+"panel.background" = "#EAEAEB"
+"panel.current" = "#DBDBDC"
+"panel.hovered" = "#E4E4E6"
+
+"status.background" = "#EAEAEB"
+"status.modal.normal" = "$blue"
+"status.modal.insert" = "$red"
+"status.modal.visual" = "$yellow"
+"status.modal.terminal" = "$purple"
+
+"markdown.blockquote" = "#686868"

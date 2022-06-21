@@ -1,14 +1,8 @@
 # Catppuccin 😸
 
-![First Screen](screenshot.png)
-
 ## Installation
 
-- copy `catppuccin.toml` to themes folder in your Lapce config.
-  - On Linux/MacOS: `~/.config/Lapce/themes/`
-  - On Windows: `%APPDATA%\Lapce\themes\`
-
-- Go to `Settings` -> `Color Theme` -> type `catppuccin` -> reload Editor
+Go to plugins, search `catppuccin` and install
 
 ## Misc
 

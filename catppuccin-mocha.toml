@@ -79,7 +79,7 @@ crust = "#11111b"
 "lapce.scroll_bar" = "$grey"
 
 
-"editor.background" = "$base"
+"editor.background" = "#1e1e2e"
 "editor.foreground" = "$rosewater"
 "editor.dim" = "$subtext1"
 "editor.focus" = "#CCCCCC"
@@ -92,22 +92,22 @@ crust = "#11111b"
 "source_control.removed" = "#ea999c32"
 "source_control.modified" = "#8caaee32"
 
-"palette.background" = "$base"
+"palette.background" = "#1e1e2e"
 "palette.current" = "$surface0"
 
-"completion.background" = "$base"
+"completion.background" = "#1e1e2e"
 "completion.current" = "$surface0"
 
-"hover.background" = "$base"
+"hover.background" = "#1e1e2e"
 
-"activity.background" = "$base"
+"activity.background" = "#1e1e2e"
 "activity.current" = "$black"
 
-"panel.background" = "$base"
+"panel.background" = "#1e1e2e"
 "panel.current" = "$surface0"
 "panel.hovered" = "#343A45"
 
-"status.background" = "$base"
+"status.background" = "#1e1e2e"
 "status.modal.normal" = "$blue"
 "status.modal.insert" = "$red"
 "status.modal.visual" = "$yellow"
@@ -117,7 +117,7 @@ crust = "#11111b"
 
 "terminal.cursor" = "$rosewater"
 "terminal.foreground" = "$rosewater"
-"terminal.background" = "$black"
+"terminal.background" = "#1e1e2e"
 "terminal.white" = "$rosewater"
 "terminal.black" = "$black"
 "terminal.red" = "$red"

@@ -80,7 +80,7 @@ crust = "#232634"
 "lapce.scroll_bar" = "$grey"
 
 
-"editor.background" = "$base"
+"editor.background" = "#303446"
 "editor.foreground" = "$rosewater"
 "editor.dim" = "$subtext1"
 "editor.focus" = "#CCCCCC"
@@ -93,22 +93,22 @@ crust = "#232634"
 "source_control.removed" = "#ea999c32"
 "source_control.modified" = "#8caaee32"
 
-"palette.background" = "$base"
+"palette.background" = "#303446"
 "palette.current" = "$surface0"
 
-"completion.background" = "$base"
+"completion.background" = "#303446"
 "completion.current" = "$surface0"
 
-"hover.background" = "$base"
+"hover.background" = "#303446"
 
-"activity.background" = "$base"
+"activity.background" = "#303446"
 "activity.current" = "$black"
 
-"panel.background" = "$base"
+"panel.background" = "#303446"
 "panel.current" = "$surface0"
 "panel.hovered" = "#343A45"
 
-"status.background" = "$base"
+"status.background" = "#303446"
 "status.modal.normal" = "$blue"
 "status.modal.insert" = "$red"
 "status.modal.visual" = "$yellow"
@@ -118,7 +118,7 @@ crust = "#232634"
 
 "terminal.cursor" = "$rosewater"
 "terminal.foreground" = "$rosewater"
-"terminal.background" = "$black"
+"terminal.background" = "#303446"
 "terminal.white" = "$rosewater"
 "terminal.black" = "$black"
 "terminal.red" = "$red"

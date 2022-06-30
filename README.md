@@ -1,4 +1,4 @@
-# Catppuccin 😸
+# Catppuccin 😸 (this is old theme)
 
 ![First Screen](screenshot.png)
 

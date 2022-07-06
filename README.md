@@ -11,6 +11,7 @@
     <a href="https://github.com/ghishadow/lapce-catppuccin/contributors"><img src="https://img.shields.io/github/contributors/ghishadow/lapce-catppuccin?colorA=1e1e28&colorB=b1e1a6&style=for-the-badge"></a>
 </p>
 
+# Variants
 
 ## Latte
 ![image](https://user-images.githubusercontent.com/9583775/175836075-9752fe90-3867-48f0-b527-9c4e18531727.png)

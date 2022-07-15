@@ -64,10 +64,10 @@ crust = "#11111b"
 "enum-member" = "$red"
 "variable.other.member" = "$red"
 "string" = "$green"
-"type.builtin" = "$cyan"
-"builtinType" = "$cyan"
-"escape" = "$cyan"
-"embedded" = "$cyan"
+"type.builtin" = "#94e2d5" #teal
+"builtinType" = "#94e2d5" #teal
+"escape" = "#94e2d5" #teal
+"embedded" = "#94e2d5" #teal
 
 [theme.ui]
 "lapce.active_tab" = "$black"
@@ -80,13 +80,13 @@ crust = "#11111b"
 
 
 "editor.background" = "#1e1e2e"
-"editor.foreground" = "$rosewater"
+"editor.foreground" = "#bac2de"
 "editor.dim" = "$subtext1"
 "editor.focus" = "#CCCCCC"
 "editor.caret" = "$teal"
 "editor.selection" = "$grey"
 "editor.current_line" = "#2C313C"
-"editor.link" = "$cyan"
+"editor.link" = "#94e2d5" #teal
 
 "source_control.added" = "##a6d18932"
 "source_control.removed" = "#ea999c32"
@@ -113,24 +113,24 @@ crust = "#11111b"
 "status.modal.visual" = "$yellow"
 "status.modal.terminal" = "$purple"
 
-"markdown.blockquote" = "$subtext0"
+"markdown.blockquote" = "#a6adc8"
 
-"terminal.cursor" = "$rosewater"
-"terminal.foreground" = "$rosewater"
+"terminal.cursor" = "#bac2de"
+"terminal.foreground" = "#cdd6f4"
 "terminal.background" = "#1e1e2e"
-"terminal.white" = "$rosewater"
-"terminal.black" = "$black"
+"terminal.white" = "#bac2de"
+"terminal.black" = "#45475a"
 "terminal.red" = "$red"
 "terminal.blue" = "$blue"
 "terminal.green" = "$green"
 "terminal.yellow" = "$yellow"
-"terminal.cyan" = "$cyan"
+"terminal.cyan" = "#94e2d5" #teal
 "terminal.magenta" = "$magenta"
-"terminal.bright_white" = "$rosewater"
+"terminal.bright_white" = "#a6adc8"
 "terminal.bright_red" = "$red"
 "terminal.bright_blue" = "$blue"
 "terminal.bright_green" = "$green"
 "terminal.bright_yellow" = "$yellow"
-"terminal.bright_cyan" = "$cyan"
-"terminal.bright_magenta" = "$magenta"
-"terminal.bright_black" = "$crust"
+"terminal.bright_cyan" = "#94e2d5" #teal
+"terminal.bright_magenta" = "#f5c2e7" #pink
+"terminal.bright_black" = "#585b70" #surface2

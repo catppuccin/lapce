@@ -43,7 +43,7 @@ crust = "#232634"
 
 
 [theme.syntax]
-"comment" = "$subtext1"
+"comment" = "#838ba7" #overlay1
 "constant" = "#e5c890"
 "type" = "#e5c890"
 "typeAlias" = "#e5c890"
@@ -57,8 +57,8 @@ crust = "#232634"
 "function" = "$blue"
 "method" = "$blue"
 "function.method" = "$blue"
-"keyword" = "$purple"
-"selfKeyword" = "$purple"
+"keyword" = "#ca9ee6"
+"selfKeyword" = "#ca9ee6"
 "field" = "$red"
 "property" = "$red"
 "enumMember" = "$red"
@@ -72,32 +72,35 @@ crust = "#232634"
 
 [theme.ui]
 "lapce.active_tab" = "#51576d"
-"lapce.inactive_tab" = "$grey"
+"lapce.inactive_tab" = "#737994"
 "lapce.error" = "$red"
 "lapce.warn" = "#e5c890"
-"lapce.dropdown_shadow" = "$mantle"
-"lapce.border" = "$mantle"
-"lapce.scroll_bar" = "$grey"
+"lapce.dropdown_shadow" = "#292c3c"
+"lapce.border" = "#292c3c"
+"lapce.scroll_bar" = "#737994"
 
 
 "editor.background" = "#303446"
 "editor.foreground" = "#b5bfe2"
-"editor.dim" = "$subtext1"
+"editor.dim" = "#babbf1"
 "editor.focus" = "#CCCCCC"
-"editor.caret" = "$teal"
-"editor.selection" = "$grey"
+"editor.caret" = "#81c8be"
+"editor.selection" = "#626880"
 "editor.current_line" = "#2C313C"
-"editor.link" = "#81c8be"
+"editor.link" = "#f2d5cf"
+
+"inlay_hint.foreground" = "#FFFFFF"
+"inlay_hint.background" = "#528bFF88"
 
 "source_control.added" = "##a6d18932"
 "source_control.removed" = "#ea999c32"
 "source_control.modified" = "#8caaee32"
 
 "palette.background" = "#303446"
-"palette.current" = "$surface0"
+"palette.current" = "#626880"
 
 "completion.background" = "#303446"
-"completion.current" = "$surface0"
+"completion.current" = "#626880"
 
 "hover.background" = "#303446"
 
@@ -105,18 +108,18 @@ crust = "#232634"
 "activity.current" = "#51576d"
 
 "panel.background" = "#303446"
-"panel.current" = "$surface0"
+"panel.current" = "#626880"
 "panel.hovered" = "#343A45"
 
 "status.background" = "#303446"
 "status.modal.normal" = "$blue"
 "status.modal.insert" = "$red"
 "status.modal.visual" = "#e5c890"
-"status.modal.terminal" = "$purple"
+"status.modal.terminal" = "#ca9ee6"
 
 "markdown.blockquote" = "#a5adce"
 
-"terminal.cursor" = "#b5bfe2"
+"terminal.cursor" = "#f2d5cf"
 "terminal.foreground" = "#c6d0f5"
 "terminal.background" = "#303446"
 "terminal.white" = "#b5bfe2"

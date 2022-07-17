@@ -46,7 +46,7 @@ crust = "#181926"
 
 
 [theme.syntax]
-"comment" = "$subtext1"
+"comment" = "#8087a2"
 "constant" = "#eed49f"
 "type" = "#eed49f"
 "typeAlias" = "#eed49f"
@@ -60,8 +60,8 @@ crust = "#181926"
 "function" = "$blue"
 "method" = "$blue"
 "function.method" = "$blue"
-"keyword" = "$purple"
-"selfKeyword" = "$purple"
+"keyword" = "#c6a0f6"
+"selfKeyword" = "#c6a0f6"
 "field" = "#ed8796"
 "property" = "#ed8796"
 "enumMember" = "#ed8796"
@@ -74,48 +74,51 @@ crust = "#181926"
 "embedded" = "#bbd5ca"
 
 [theme.ui]
-"lapce.active_tab" = "$black"
-"lapce.inactive_tab" = "$grey"
+"lapce.active_tab" = "#5b6078"
+"lapce.inactive_tab" = "#6e738d"
 "lapce.error" = "#ed8796"
 "lapce.warn" = "#eed49f"
-"lapce.dropdown_shadow" = "$mantle"
-"lapce.border" = "$mantle"
-"lapce.scroll_bar" = "$grey"
+"lapce.dropdown_shadow" = "#1e2030"
+"lapce.border" = "#1e2030"
+"lapce.scroll_bar" = "#6e738d"
 
 
 "editor.background" = "#24273a"
 "editor.foreground" = "#f4dbd6"
-"editor.dim" = "$subtext1"
+"editor.dim" = "#b7bdf8"
 "editor.focus" = "#CCCCCC"
-"editor.caret" = "$teal"
-"editor.selection" = "$grey"
+"editor.caret" = "#8bd5ca"
+"editor.selection" = "#5b6078"
 "editor.current_line" = "#2C313C"
-"editor.link" = "#bbd5ca"
+"editor.link" = "#f4dbd6"
+
+"inlay_hint.foreground" = "#FFFFFF"
+"inlay_hint.background" = "#528bFF88"
 
 "source_control.added" = "##a6d18932"
 "source_control.removed" = "#ea999c32"
 "source_control.modified" = "#8caaee32"
 
 "palette.background" = "#24273a"
-"palette.current" = "$surface0"
+"palette.current" = "#5b6078"
 
 "completion.background" = "#24273a"
-"completion.current" = "$surface0"
+"completion.current" = "#5b6078"
 
 "hover.background" = "#24273a"
 
 "activity.background" = "#24273a"
-"activity.current" = "$black"
+"activity.current" = "#5b6078"
 
 "panel.background" = "#24273a"
-"panel.current" = "$surface0"
+"panel.current" = "#5b6078"
 "panel.hovered" = "#343A45"
 
 "status.background" = "#24273a"
 "status.modal.normal" = "$blue"
 "status.modal.insert" = "#ed8796"
 "status.modal.visual" = "#eed49f"
-"status.modal.terminal" = "$purple"
+"status.modal.terminal" = "#c6a0f6"
 
 "markdown.blockquote" = "#a5adcb"
 

@@ -88,8 +88,8 @@ crust = "#11111b"
 "editor.current_line" = "#2C313C"
 "editor.link" = "#f5e0dc"
 
-"inlay_hint.foreground" = "#FFFFFF"
-"inlay_hint.background" = "#528bFF88"
+"inlay_hint.foreground" = "#7f849c"
+"inlay_hint.background" = "#585b7050"
 
 "source_control.added" = "##a6d18932"
 "source_control.removed" = "#ea999c32"

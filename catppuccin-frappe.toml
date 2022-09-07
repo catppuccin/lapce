@@ -82,7 +82,7 @@ crust = "#232634"
 
 "editor.background" = "#303446"
 "editor.foreground" = "#b5bfe2"
-"editor.dim" = "#babbf1"
+"editor.dim" = "#838ba7"
 "editor.focus" = "#CCCCCC"
 "editor.caret" = "#81c8be"
 "editor.selection" = "#626880"

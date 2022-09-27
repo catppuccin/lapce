@@ -1,7 +1,7 @@
 name = "catppuccin"
 display-name = "Catppuccin"
 description = "🐭 Soothing pastel theme for Lapce"
-version = "0.1.8"
-author = "ghishadow"
-repository = "ghishadow/lapce-catppuccin"
+version = "0.1.9"
+author = "catppuccin"
+repository = "catppuccin/lapce"
 themes = ["catppuccin-latte.toml", "catppuccin-frappe.toml", "catppuccin-macchiato.toml", "catppuccin-mocha.toml"]

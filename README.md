@@ -6,9 +6,9 @@
 </h3>
 
 <p align="center">
-    <a href="https://github.com/ghishadow/lapce-catppuccin/stargazers"><img src="https://img.shields.io/github/stars/ghishadow/lapce-catppuccin?colorA=1e1e28&colorB=c9cbff&style=for-the-badge&logo=starship"></a>
-    <a href="https://github.com/ghishadow/lapce-catppuccin/issues"><img src="https://img.shields.io/github/issues/ghishadow/lapce-catppuccin?colorA=1e1e28&colorB=f7be95&style=for-the-badge"></a>
-    <a href="https://github.com/ghishadow/lapce-catppuccin/contributors"><img src="https://img.shields.io/github/contributors/ghishadow/lapce-catppuccin?colorA=1e1e28&colorB=b1e1a6&style=for-the-badge"></a>
+    <a href="https://github.com/catppuccin/lapce/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/lapce?colorA=1e1e28&colorB=c9cbff&style=for-the-badge&logo=starship"></a>
+    <a href="https://github.com/catppuccin/lapce/issues"><img src="https://img.shields.io/github/issues/catppuccin/lapce?colorA=1e1e28&colorB=f7be95&style=for-the-badge"></a>
+    <a href="https://github.com/catppuccin/lapce/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/lapce?colorA=1e1e28&colorB=b1e1a6&style=for-the-badge"></a>
 </p>
 
 # Variants

@@ -1,36 +1,65 @@
 <h3 align="center">
- <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/dev/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
- <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/dev/assets/misc/transparent.png" height="30" width="0px"/>
- Catppuccin for <a href="https://github.com/lapce/lapce">Lapce</a>
- <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/dev/assets/misc/transparent.png" height="30" width="0px"/>
+	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
+	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
+	Catppuccin for <a href="https://github.com/lapce/lapce">Lapce</a>
+	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
 <p align="center">
-    <a href="https://github.com/catppuccin/lapce/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/lapce?colorA=1e1e28&colorB=c9cbff&style=for-the-badge&logo=starship"></a>
-    <a href="https://github.com/catppuccin/lapce/issues"><img src="https://img.shields.io/github/issues/catppuccin/lapce?colorA=1e1e28&colorB=f7be95&style=for-the-badge"></a>
-    <a href="https://github.com/catppuccin/lapce/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/lapce?colorA=1e1e28&colorB=b1e1a6&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/lapce/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/lapce?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/lapce/issues"><img src="https://img.shields.io/github/issues/catppuccin/lapce?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/lapce/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/lapce?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
-# Variants
+<p align="center">
+	<img src="assets/lapce-preview.webp"/>
+</p>
 
-## Latte
+## Previews
 
-![image](https://user-images.githubusercontent.com/9583775/175836075-9752fe90-3867-48f0-b527-9c4e18531727.png)
+<details>
+<summary>🌻 Latte</summary>
+<img src="assets/lapce-latte.webp"/>
+</details>
+<details>
+<summary>🪴 Frappé</summary>
+<img src="assets/lapce-frappe.webp"/>
+</details>
+<details>
+<summary>🌺 Macchiato</summary>
+<img src="assets/lapce-macchiato.webp"/>
+</details>
+<details>
+<summary>🌿 Mocha</summary>
+<img src="assets/lapce-mocha.webp"/>
+</details>
 
-## Frappé
+## Usage
 
-![image](https://user-images.githubusercontent.com/9583775/175836109-c03804b3-4ce5-4127-b436-70a764230f9d.png)
+1. Open Lapce
+2. Go to Plugins
+3. Scroll down to Catppuccin -> Install
+4. Open Settings -> Theme
+5. Type in `Catppuccin [Flavour]`
 
-## Macchiato
 
-![image](https://user-images.githubusercontent.com/9583775/175836152-cd3b10e4-7260-49f4-a591-dd6bc343f8b0.png)
+## 💝 Thanks to
 
-## Mocha
+- [tuxinal](https://github.com/tuxinal)
+- [ghishadow](https://github.com/ghishadow)
+- [winston](https://github.com/nekowinston)
+- [justTOBBI](https://github.com/justTOBBI)
 
-![image](https://user-images.githubusercontent.com/9583775/175836180-807080f9-a7fa-44c3-9922-f903911823e8.png)
+&nbsp;
 
-## Installation
+<p align="center">
+	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" />
+</p>
 
-Go to plugins, search `catppuccin` and install
+<p align="center">
+	Copyright &copy; 2021-present <a href="https://github.com/catppuccin" target="_blank">Catppuccin Org</a>
+</p>
 
-![MIT License](https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=302d41&colorB=c9cbff)
+<p align="center">
+	<a href="https://github.com/catppuccin/catppuccin/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a>
+</p>

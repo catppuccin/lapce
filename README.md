@@ -15,6 +15,25 @@
 	<img src="assets/lapce-preview.webp"/>
 </p>
 
+## Previews
+
+<details>
+<summary>🌻 Latte</summary>
+<img src="assets/lapce-latte.webp"/>
+</details>
+<details>
+<summary>🪴 Frappé</summary>
+<img src="assets/lapce-frappe.webp"/>
+</details>
+<details>
+<summary>🌺 Macchiato</summary>
+<img src="assets/lapce-macchiato.webp"/>
+</details>
+<details>
+<summary>🌿 Mocha</summary>
+<img src="assets/lapce-mocha.webp"/>
+</details>
+
 ## Usage
 
 1. Open Lapce

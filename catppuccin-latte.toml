@@ -1,4 +1,5 @@
-[theme]
+#:schema https://raw.githubusercontent.com/lapce/lapce/master/extra/schemas/color-theme.json
+[color-theme]
 name = "Catppuccin Latte"
 
 [ui]
@@ -11,39 +12,23 @@ activity-width = 50
 scroll-width = 10
 drop-shadow-width = 0
 
-# https://github.com/catppuccin/catppuccin
-[theme.base]
-rosewater = "#dc8a78"
-flamigo = "#dd7878"
-pink = "#ea76cb"
-mauve = "#8839ef"
-red = "#d20f39"
-maroon = "#e64553"
-peach = "#fe640b"
-yellow = "#df8e1d"
-green = "#40a02b" 
-teal = "#179299"
-sky = "#04a5e5"
-sapphire = "#209fb5"
-blue = "#1e66f5"
-lavender = "#7287fd"
-text = "#4c4f69"
-subtext1 = "#5c5f77"
-subtext0 = "#6c6f85"
-overlay2 = "#7c7f93"
-overlay1 = "#8c8fa1"
-overlay0 = "#9ca0b0"
-surface2 = "#acb0be"
-surface1 = "#bcc0cc"
-surface0 = "#ccd0da"
-base = "#eff1f5"
-mantle = "#e6e9ef"
-crust = "#dce0e8"
 
-[theme.syntax]
+[color-theme.base]
+black = "#5C5F77"
+blue = "#1E66F5"
+cyan = "#179299"
+green = "#40A02B"
+grey = "#E5E5E6"
+magenta = "#EA76CB"
+orange = "#D19A66"
+purple = "#8839ef"
+red = "#D20F39"
+white = "#ACB0BE"
+yellow = "#DF8E1D"
+
+[color-theme.syntax]
 "comment" = "#8c8fa1"
-
-"constant" = "$yellow"
+"constant" = "#fe640b"
 "type" = "$yellow"
 "typeAlias" = "$yellow"
 "number" = "$yellow"
@@ -58,30 +43,65 @@ crust = "#dce0e8"
 "method" = "$blue"
 "function.method" = "$blue"
 
-"keyword" = "#8839ef"
-"selfKeyword" = "#8839ef"
+"keyword" = "$purple"
+"selfKeyword" = "$purple"
 
 "field" = "$red"
 "property" = "$red"
 "enumMember" = "$red"
 "enum-member" = "$red"
-"variable.other.member" = "$red"
 
 "string" = "$green"
+"string.escape" = "$cyan"
 
 "type.builtin" = "#179299"
 "builtinType" = "#179299"
 "escape" = "#179299"
 "embedded" = "#179299"
 
-[theme.ui]
-"lapce.active_tab" = "#eff1f5"
-"lapce.inactive_tab" = "#9ca0b0"
-"lapce.error" = "#E51400"
+"punctuation.delimiter" = "$yellow"
+"text.title" = "$orange"
+"text.uri" = "$cyan"
+"text.reference" = "$yellow"
+"variable" = "$red"
+"variable.other.member" = "$green"
+"tag" = "$blue"
+
+
+
+[color-theme.ui]
+"lapce.error" = "$red"
 "lapce.warn" = "#E9A700"
 "lapce.dropdown_shadow" = "#B4B4B4"
 "lapce.border" = "#B4B4B4"
 "lapce.scroll_bar" = "#9ca0b0"
+
+"lapce.button.primary.background" = "$green"
+"lapce.button.primary.foreground" = "$white"
+
+# tab
+"lapce.tab.active.background" = "$white"
+"lapce.tab.active.foreground" = "$black"
+"lapce.tab.active.underline" = "#528BFF"
+
+"lapce.tab.inactive.background" = "#EAEAEB"
+"lapce.tab.inactive.foreground" = "$black"
+"lapce.tab.inactive.underline" = "#528BFF77"
+
+"lapce.tab.separator" = "#B4B4B4"
+
+"lapce.icon.active" = "$black"
+"lapce.icon.inactive" = "#A0A1A7"
+
+"lapce.remote.local" = "#4078F2"
+"lapce.remote.connected" = "#50A14F"
+"lapce.remote.connecting" = "#C18401"
+"lapce.remote.disconnected" = "#E45649"
+
+"lapce.plugin.name" = "#444444"
+"lapce.plugin.description" = "$black"
+"lapce.plugin.author" = "#707070"
+
 
 "terminal.cursor" = "#dc8a78"
 "terminal.foreground" = "#4c4f69"
@@ -111,16 +131,29 @@ crust = "#dce0e8"
 "editor.selection" = "#acb0be"
 "editor.current_line" = "#E4E4E6"
 "editor.link" = "#dc8a78"
+"editor.visible_whitespace" = "$grey"
+"editor.indent_guide" = "$grey"
+"editor.drag_drop_background" = "#79c1fc33"
+"editor.drag_drop_tab_background" = "#0b0e1433"
 
 "inlay_hint.foreground" = "#8c8fa1"
 "inlay_hint.background" = "#acb0be50"
+
+"error_lens.error.foreground" = "$red"
+"error_lens.error.background" = "#E4564920"
+"error_lens.warning.foreground" = "$yellow"
+"error_lens.warning.background" = "#C1840120"
+"error_lens.other.foreground" = "#A0A1A7"
+"error_lens.other.background" = "#A0A1A720"
 
 "source_control.added" = "#50A14F32"
 "source_control.removed" = "#FF526632"
 "source_control.modified" = "#0184BC32"
 
-"palette.background" = "#eff1f5"
-"palette.current" = "#acb0be"
+"palette.background" = "#EAEAEB"
+"palette.foreground" = "$black"
+"palette.current.background" = "#DBDBDC"
+"palette.current.foreground" = "$black"
 
 "completion.background" = "#eff1f5"
 "completion.current" = "#acb0be"
@@ -131,13 +164,20 @@ crust = "#dce0e8"
 "activity.current" = "#dc8a78"
 
 "panel.background" = "#eff1f5"
-"panel.current" = "#acb0be"
-"panel.hovered" = "#E4E4E6"
+"panel.foreground" = "$black"
+"panel.foreground.dim" = "#A0A1A7"
+"panel.current.background" = "#DBDBDC"
+"panel.current.foreground" = "$black"
+"panel.current.foreground.dim" = "#A0A1A7"
+"panel.hovered.background" = "#E4E4E6"
+"panel.hovered.foreground" = "$black"
+"panel.hovered.foreground.dim" = "#A0A1A7"
 
 "status.background" = "#eff1f5"
+"status.foreground" = "$black"
 "status.modal.normal" = "$blue"
 "status.modal.insert" = "$red"
 "status.modal.visual" = "$yellow"
-"status.modal.terminal" = "#8839ef"
+"status.modal.terminal" = "$purple"
 
 "markdown.blockquote" = "#686868"

@@ -1,4 +1,5 @@
-[theme]
+#:schema https://raw.githubusercontent.com/lapce/lapce/master/extra/schemas/color-theme.json
+[color-theme]
 name = "Catppuccin Macchiato"
 
 [ui]
@@ -12,40 +13,48 @@ scroll-width = 10
 drop-shadow-width = 0
 
 # https://github.com/catppuccin/catppuccin
-[theme.base]
-rosewater = "#f4dbd6"
-flamigo = "#f0c6c6"
-pink = "#f5bde6"
-mauve = "#c6a0f6"
-red = "#ed8796"
-maroon = "#ee99a0"
-peach = "#f5a97f"
-yellow = "#eed49f"
-green = "#a6da95" 
-teal = "#8bd5ca"
-sky = "#91d7e3"
-sapphire = "#7dc4e4"
-blue = "#8aadf4"
-lavender = "#b7bdf8"
-text = "#cad3f5"
-subtext1 = "#b8c0e0"
-subtext0 = "#a5adcb"
-overlay2 = "#939ab7"
-overlay1 = "#8087a2"
-overlay0 = "#6e738d"
-surface2 = "#5b6078"
-surface1 = "#363a4f"
-surface0 = "#414559"
-base = "#24273a"
-mantle = "#1e2030"
-crust = "#181926"
+# rosewater = "#f4dbd6"
+# flamigo = "#f0c6c6"
+# pink = "#f5bde6"
+# mauve = "#c6a0f6"
+# red = "#ed8796"
+# maroon = "#ee99a0"
+# peach = "#f5a97f"
+# yellow = "#eed49f"
+# green = "#a6da95"
+# teal = "#8bd5ca"
+# sky = "#91d7e3"
+# sapphire = "#7dc4e4"
+# blue = "#8aadf4"
+# lavender = "#b7bdf8"
+# text = "#cad3f5"
+# subtext1 = "#b8c0e0"
+# subtext0 = "#a5adcb"
+# overlay2 = "#939ab7"
+# overlay1 = "#8087a2"
+# overlay0 = "#6e738d"
+# surface2 = "#5b6078"
+# surface1 = "#363a4f"
+# surface0 = "#414559"
+# base = "#24273a"
+# mantle = "#1e2030"
+# crust = "#181926"
+
+[color-theme.base]
+
+black = "#494D64"   # surface1
+blue = "#8AADF4"    # blue
+cyan = "#8BD5CA"    # teal
+green = "#A6DA95"   # green
+magenta = "#F5BDE6" # pink
+orange = "#f5a97f"  # peach
+purple = "#c6a0f6"  # mauve
+red = "#ed8796"     # red
+white = "#B8C0E0"   # subtext1
+yellow = "#EED49F"  # yellow
 
 
-
-
-
-
-[theme.syntax]
+[color-theme.syntax]
 "comment" = "#8087a2"
 "constant" = "#eed49f"
 "type" = "#eed49f"
@@ -73,18 +82,42 @@ crust = "#181926"
 "escape" = "#bbd5ca"
 "embedded" = "#bbd5ca"
 
-[theme.ui]
-"lapce.active_tab" = "#5b6078"
-"lapce.inactive_tab" = "#6e738d"
-"lapce.error" = "#ed8796"
-"lapce.warn" = "#eed49f"
+[color-theme.ui]
+"lapce.error" = "$red"
+"lapce.warn" = "$yellow"
 "lapce.dropdown_shadow" = "#1e2030"
 "lapce.border" = "#1e2030"
 "lapce.scroll_bar" = "#6e738d"
 
+"lapce.button.primary.background" = "$green"
+"lapce.button.primary.foreground" = "$black"
+
+# tab
+"lapce.tab.active.background" = "#1e2030"
+"lapce.tab.active.foreground" = "$white"
+"lapce.tab.active.underline" = "$blue"
+
+"lapce.tab.inactive.background" = "#1e2030"
+"lapce.tab.inactive.foreground" = "$white"
+"lapce.tab.inactive.underline" = "#528BFF77"
+
+"lapce.tab.separator" = ""
+
+"lapce.icon.active" = "$white"
+"lapce.icon.inactive" = "#5C6370"
+
+"lapce.remote.local" = "#4078F2"
+"lapce.remote.connected" = "#50A14F"
+"lapce.remote.connecting" = "#C18401"
+"lapce.remote.disconnected" = "#E45649"
+
+"lapce.plugin.name" = "#DDDDDD"
+"lapce.plugin.description" = "$white"
+"lapce.plugin.author" = "#B0B0B0"
+
 
 "editor.background" = "#24273a"
-"editor.foreground" = "#f4dbd6"
+"editor.foreground" = "#cad3f5"
 "editor.dim" = "#8087a2"
 "editor.focus" = "#CCCCCC"
 "editor.caret" = "#8bd5ca"
@@ -107,14 +140,14 @@ crust = "#181926"
 
 "hover.background" = "#24273a"
 
-"activity.background" = "#24273a"
-"activity.current" = "#5b6078"
+"activity.background" = "#181926"
+"activity.current" = "#00000000"
 
 "panel.background" = "#24273a"
 "panel.current" = "#5b6078"
 "panel.hovered" = "#343A45"
 
-"status.background" = "#24273a"
+"status.background" = "#1e2030"
 "status.modal.normal" = "$blue"
 "status.modal.insert" = "#ed8796"
 "status.modal.visual" = "#eed49f"
@@ -141,4 +174,3 @@ crust = "#181926"
 "terminal.bright_cyan" = "#bbd5ca"
 "terminal.bright_magenta" = "#c6a0f6"
 "terminal.bright_black" = "#586078"
-

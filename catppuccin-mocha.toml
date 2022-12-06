@@ -38,16 +38,16 @@ drop-shadow-width = 0
 
 [color-theme.base]
 
-black = "#45475A" # surface1
-blue = "#89b4fa" # blue
-cyan = "#94E2D5" # teal
-green = "#A6E3A1" # green
+black = "#45475A"   # surface1
+blue = "#89b4fa"    # blue
+cyan = "#94E2D5"    # teal
+green = "#A6E3A1"   # green
 magenta = "#F5C2E7" # pink
-orange = "#fab387" # peach
+orange = "#fab387"  # peach
 purple = "#cba6f7"  # mauve
-red = "#F38BA8" # red
-white = "#BAC2DE" # subtext1
-yellow = "#F9E2AF" # yellow
+red = "#F38BA8"     # red
+white = "#BAC2DE"   # subtext1
+yellow = "#F9E2AF"  # yellow
 
 [color-theme.syntax]
 "comment" = "#7f849c"
@@ -77,10 +77,10 @@ yellow = "#F9E2AF" # yellow
 "string" = "$green"
 "string.escape" = "$cyan"
 
-"type.builtin" = "#94e2d5"       #teal
-"builtinType" = "#94e2d5"        #teal
-"escape" = "#94e2d5"             #teal
-"embedded" = "#94e2d5"           #teal
+"type.builtin" = "#94e2d5" #teal
+"builtinType" = "#94e2d5"  #teal
+"escape" = "#94e2d5"       #teal
+"embedded" = "#94e2d5"     #teal
 
 "punctuation.delimiter" = "$yellow"
 "text.title" = "$orange"
@@ -102,11 +102,11 @@ yellow = "#F9E2AF" # yellow
 "lapce.button.primary.foreground" = "$black"
 
 # tab
-"lapce.tab.active.background" = "$black"
+"lapce.tab.active.background" = "#181825"
 "lapce.tab.active.foreground" = "$white"
-"lapce.tab.active.underline" = "#528BFF"
+"lapce.tab.active.underline" = "$blue"
 
-"lapce.tab.inactive.background" = "#21252b"
+"lapce.tab.inactive.background" = "#181825"
 "lapce.tab.inactive.foreground" = "$white"
 "lapce.tab.inactive.underline" = "#528BFF77"
 
@@ -149,10 +149,10 @@ yellow = "#F9E2AF" # yellow
 
 "hover.background" = "#1e1e2e"
 
-"activity.background" = "#1e1e2e"
-"activity.current" = "#585b70"
+"activity.background" = "#181825"
+"activity.current" = "#00000000"
 
-"panel.background" = "#1e1e2e"
+"panel.background" = "#181825"
 "panel.foreground" = "$black"
 "panel.foreground.dim" = "#A0A1A7"
 "panel.current.background" = "#DBDBDC"
@@ -162,7 +162,7 @@ yellow = "#F9E2AF" # yellow
 "panel.hovered.foreground" = "$black"
 "panel.hovered.foreground.dim" = "#A0A1A7"
 
-"status.background" = "#1e1e2e"
+"status.background" = "#181825"
 "status.modal.normal" = "$blue"
 "status.modal.insert" = "$red"
 "status.modal.visual" = "$yellow"

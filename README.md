@@ -39,7 +39,7 @@
 1. Open Lapce
 2. Go to Plugins
 3. Scroll down to Catppuccin -> Install
-4. Open Settings -> Theme
+4. Open Settings -> Change Theme
 5. Type in `Catppuccin [Flavour]`
 
 

@@ -68,7 +68,6 @@ yellow = "#DF8E1D"
 "tag" = "$blue"
 
 
-
 [color-theme.ui]
 "lapce.error" = "$red"
 "lapce.warn" = "#E9A700"
@@ -80,11 +79,11 @@ yellow = "#DF8E1D"
 "lapce.button.primary.foreground" = "$white"
 
 # tab
-"lapce.tab.active.background" = "$white"
+"lapce.tab.active.background" = "#e6e9ef"
 "lapce.tab.active.foreground" = "$black"
 "lapce.tab.active.underline" = "#528BFF"
 
-"lapce.tab.inactive.background" = "#EAEAEB"
+"lapce.tab.inactive.background" = "#e6e9ef"
 "lapce.tab.inactive.foreground" = "$black"
 "lapce.tab.inactive.underline" = "#528BFF77"
 
@@ -155,15 +154,15 @@ yellow = "#DF8E1D"
 "palette.current.background" = "#DBDBDC"
 "palette.current.foreground" = "$black"
 
-"completion.background" = "#eff1f5"
+"completion.background" = "#e6e9ef"
 "completion.current" = "#acb0be"
 
 "hover.background" = "#eff1f5"
 
-"activity.background" = "#eff1f5"
+"activity.background" = "#e6e9ef"
 "activity.current" = "#dc8a78"
 
-"panel.background" = "#eff1f5"
+"panel.background" = "#e6e9ef"
 "panel.foreground" = "$black"
 "panel.foreground.dim" = "#A0A1A7"
 "panel.current.background" = "#DBDBDC"
@@ -173,7 +172,7 @@ yellow = "#DF8E1D"
 "panel.hovered.foreground" = "$black"
 "panel.hovered.foreground.dim" = "#A0A1A7"
 
-"status.background" = "#eff1f5"
+"status.background" = "#e6e9ef"
 "status.foreground" = "$black"
 "status.modal.normal" = "$blue"
 "status.modal.insert" = "$red"

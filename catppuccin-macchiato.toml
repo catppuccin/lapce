@@ -143,9 +143,15 @@ yellow = "#EED49F"  # yellow
 "activity.background" = "#181926"
 "activity.current" = "#00000000"
 
-"panel.background" = "#24273a"
-"panel.current" = "#5b6078"
-"panel.hovered" = "#343A45"
+"panel.background" = "#1e2030"
+"panel.foreground" = "#cad3f5"
+"panel.foreground.dim" = "#A0A1A7"
+"panel.current.background" = "#181926"
+"panel.current.foreground" = "#cad3f5"
+"panel.current.foreground.dim" = "#A0A1A7"
+"panel.hovered.background" = "#181926"
+"panel.hovered.foreground" = "$black"
+"panel.hovered.foreground.dim" = "#A0A1A7"
 
 "status.background" = "#1e2030"
 "status.modal.normal" = "$blue"

@@ -1,4 +1,4 @@
-#:schema https://raw.githubusercontent.com/ghishadow/lapce-schema/blob/main/theme.schema.json
+#:schema https://raw.githubusercontent.com/lapce/lapce/master/extra/schemas/color-theme.json
 [color-theme]
 name = "Catppuccin Mocha"
 
@@ -126,7 +126,7 @@ yellow = "#F9E2AF"  # yellow
 
 
 "editor.background" = "#1e1e2e"
-"editor.foreground" = "#bac2de"
+"editor.foreground" = "#cdd6f4"
 "editor.dim" = "#7f849c"
 "editor.focus" = "#CCCCCC"
 "editor.caret" = "#94e2d5"
@@ -142,7 +142,7 @@ yellow = "#F9E2AF"  # yellow
 "source_control.modified" = "#8caaee32"
 
 "palette.background" = "#1e1e2e"
-"palette.current" = "#585b70"
+"palette.current" = "#11111b"
 
 "completion.background" = "#1e1e2e"
 "completion.current" = "#585b70"
@@ -150,16 +150,16 @@ yellow = "#F9E2AF"  # yellow
 "hover.background" = "#1e1e2e"
 
 "activity.background" = "#181825"
-"activity.current" = "#00000000"
+"activity.current" = "#11111b"
 
 "panel.background" = "#181825"
-"panel.foreground" = "$black"
+"panel.foreground" = "#cdd6f4"
 "panel.foreground.dim" = "#A0A1A7"
-"panel.current.background" = "#DBDBDC"
-"panel.current.foreground" = "$black"
+"panel.current.background" = "#11111b"
+"panel.current.foreground" = "#cdd6f4"
 "panel.current.foreground.dim" = "#A0A1A7"
-"panel.hovered.background" = "#E4E4E6"
-"panel.hovered.foreground" = "$black"
+"panel.hovered.background" = "#11111b"
+"panel.hovered.foreground" = "#cdd6f4"
 "panel.hovered.foreground.dim" = "#A0A1A7"
 
 "status.background" = "#181825"

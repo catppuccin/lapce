@@ -1,7 +1,8 @@
 name = "catppuccin"
 display-name = "Catppuccin"
 description = "🐭 Soothing pastel theme for Lapce"
-version = "0.1.9"
+version = "0.1.11"
 author = "catppuccin"
 repository = "catppuccin/lapce"
-themes = ["catppuccin-latte.toml", "catppuccin-frappe.toml", "catppuccin-macchiato.toml", "catppuccin-mocha.toml"]
+icon = "assets/logo.webp"
+color-themes = ["catppuccin-latte.toml", "catppuccin-frappe.toml", "catppuccin-macchiato.toml", "catppuccin-mocha.toml"]

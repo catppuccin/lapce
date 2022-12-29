@@ -1,4 +1,5 @@
-[theme]
+#:schema https://raw.githubusercontent.com/lapce/lapce/master/extra/schemas/color-theme.json
+[color-theme]
 name = "Catppuccin Frappe"
 
 [ui]
@@ -12,38 +13,48 @@ scroll-width = 10
 drop-shadow-width = 0
 
 # https://github.com/catppuccin/catppuccin
-[theme.base]
-rosewater = "#f2d5cf"
-flamigo = "#eebebe"
-pink = "#f4b8e4"
-mauve = "#ca9ee6"
-red = "#e78284"
-maroon = "#ea999c"
-peach = "#ef9f76"
-yellow = "#e5c890"
-green = "#a6d189" 
-teal = "#81c8be"
-sky = "#99d1db"
-sapphire = "#85c1dc"
-blue = "#8caaee"
-lavender = "#babbf1"
-text = "#c6d0f5"
-subtext1 = "#b5bfe2"
-subtext0 = "#a5adce"
-overlay2 = "#949cbb"
-overlay1 = "#838ba7"
-overlay0 = "#737994"
-surface2 = "#626880"
-surface1 = "#51576d"
-surface0 = "#414559"
-base = "#303446"
-mantle = "#292c3c"
-crust = "#232634"
+# rosewater = "#f2d5cf"
+# flamigo = "#eebebe"
+# pink = "#f4b8e4"
+# mauve = "#ca9ee6"
+# red = "#e78284"
+# maroon = "#ea999c"
+# peach = "#ef9f76"
+# yellow = "#e5c890"
+# green = "#a6d189"
+# teal = "#81c8be"
+# sky = "#99d1db"
+# sapphire = "#85c1dc"
+# blue = "#8caaee"
+# lavender = "#babbf1"
+# text = "#c6d0f5"
+# subtext1 = "#b5bfe2"
+# subtext0 = "#a5adce"
+# overlay2 = "#949cbb"
+# overlay1 = "#838ba7"
+# overlay0 = "#737994"
+# surface2 = "#626880"
+# surface1 = "#51576d"
+# surface0 = "#414559"
+# base = "#303446"
+# mantle = "#292c3c"
+# crust = "#232634"
+
+[color-theme.base]
+black = "#51576D"   # surface1
+blue = "#8CAAEE"    # blue
+cyan = "#81C8BE"    # teal
+green = "#A6D189"   # green
+magenta = "#F4B8E4" # pink
+orange = "#ef9f76"  # peach
+purple = "#ca9ee6"  # mauve
+red = "#E78284"     # red
+white = "#B5BFE2"   # subtext1
+yellow = "#E5C890"  # yellow
 
 
-
-[theme.syntax]
-"comment" = "#838ba7" #overlay1
+[color-theme.syntax]
+"comment" = "#838ba7"            #overlay1
 "constant" = "#e5c890"
 "type" = "#e5c890"
 "typeAlias" = "#e5c890"
@@ -70,14 +81,38 @@ crust = "#232634"
 "escape" = "#81c8be"
 "embedded" = "#81c8be"
 
-[theme.ui]
-"lapce.active_tab" = "#51576d"
-"lapce.inactive_tab" = "#737994"
+[color-theme.ui]
 "lapce.error" = "$red"
 "lapce.warn" = "#e5c890"
 "lapce.dropdown_shadow" = "#292c3c"
 "lapce.border" = "#292c3c"
 "lapce.scroll_bar" = "#737994"
+
+"lapce.button.primary.background" = "$green"
+"lapce.button.primary.foreground" = "$black"
+
+# tab
+"lapce.tab.active.background" = "#292c3c"
+"lapce.tab.active.foreground" = "$white"
+"lapce.tab.active.underline" = "$blue"
+
+"lapce.tab.inactive.background" = "#292c3c"
+"lapce.tab.inactive.foreground" = "$white"
+"lapce.tab.inactive.underline" = "#528BFF77"
+
+"lapce.tab.separator" = ""
+
+"lapce.icon.active" = "$white"
+"lapce.icon.inactive" = "#5C6370"
+
+"lapce.remote.local" = "#4078F2"
+"lapce.remote.connected" = "#50A14F"
+"lapce.remote.connecting" = "#C18401"
+"lapce.remote.disconnected" = "#E45649"
+
+"lapce.plugin.name" = "#DDDDDD"
+"lapce.plugin.description" = "$white"
+"lapce.plugin.author" = "#B0B0B0"
 
 
 "editor.background" = "#303446"
@@ -107,11 +142,17 @@ crust = "#232634"
 "activity.background" = "#303446"
 "activity.current" = "#51576d"
 
-"panel.background" = "#303446"
-"panel.current" = "#626880"
-"panel.hovered" = "#343A45"
+"panel.background" = "#292c3c"
+"panel.foreground" = "#c6d0f5"
+"panel.foreground.dim" = "#A0A1A7"
+"panel.current.background" = "#232634"
+"panel.current.foreground" = "#c6d0f5"
+"panel.current.foreground.dim" = "#A0A1A7"
+"panel.hovered.background" = "#232634"
+"panel.hovered.foreground" = "#c6d0f5"
+"panel.hovered.foreground.dim" = "#A0A1A7"
 
-"status.background" = "#303446"
+"status.background" = "#292c3c"
 "status.modal.normal" = "$blue"
 "status.modal.insert" = "$red"
 "status.modal.visual" = "#e5c890"

@@ -124,9 +124,14 @@ yellow = "#EED49F"  # yellow
 "editor.selection" = "#5b6078"
 "editor.current_line" = "#2C313C"
 "editor.link" = "#f4dbd6"
+"editor.visible_whitespace" = "$grey"
+"editor.indent_guide" = "$grey"
+"editor.drag_drop_background" = "#79c1fc55"
+"editor.drag_drop_tab_background" = "#0b0e1455"
+"editor.sticky_header_background" = "$black"
 
-"inlay_hint.foreground" = "#8087a2"
-"inlay_hint.background" = "#5b607850"
+"inlay_hint.foreground" = "#494d64"
+"inlay_hint.background" = "#1e2030"
 
 "source_control.added" = "##a6d18932"
 "source_control.removed" = "#ea999c32"
@@ -154,10 +159,17 @@ yellow = "#EED49F"  # yellow
 "panel.hovered.foreground.dim" = "#A0A1A7"
 
 "status.background" = "#1e2030"
-"status.modal.normal" = "$blue"
-"status.modal.insert" = "#ed8796"
-"status.modal.visual" = "#eed49f"
-"status.modal.terminal" = "#c6a0f6"
+"status.foreground" = "$white"
+"status.modal.normal.background" = "$blue"
+"status.modal.normal.foreground" = "$black"
+"status.modal.insert.background" = "$red"
+"status.modal.insert.foreground" = "$black"
+"status.modal.visual.background" = "$yellow"
+"status.modal.visual.foreground" = "$black"
+"status.modal.terminal.background" = "$purple"
+"status.modal.terminal.foreground" = "$black"
+
+
 
 "markdown.blockquote" = "#a5adcb"
 

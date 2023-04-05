@@ -136,8 +136,8 @@ yellow = "#DF8E1D"
 "editor.drag_drop_tab_background" = "#0b0e1433"
 "editor.sticky_header_background" = "$grey"
 
-"inlay_hint.foreground" = "#8c8fa1"
-"inlay_hint.background" = "#acb0be50"
+"inlay_hint.foreground" = "#bcc0cc"
+"inlay_hint.background" = "#e6e9ef"
 
 "error_lens.error.foreground" = "$red"
 "error_lens.error.background" = "#E4564920"
@@ -175,9 +175,15 @@ yellow = "#DF8E1D"
 
 "status.background" = "#e6e9ef"
 "status.foreground" = "$black"
-"status.modal.normal" = "$blue"
-"status.modal.insert" = "$red"
-"status.modal.visual" = "$yellow"
-"status.modal.terminal" = "$purple"
+"status.modal.normal.background" = "$blue"
+"status.modal.normal.foreground" = "$white"
+"status.modal.insert.background" = "$red"
+"status.modal.insert.foreground" = "$white"
+"status.modal.visual.background" = "$yellow"
+"status.modal.visual.foreground" = "$white"
+"status.modal.terminal.background" = "$purple"
+"status.modal.terminal.foreground" = "$white"
+
+
 
 "markdown.blockquote" = "#686868"

@@ -123,9 +123,14 @@ yellow = "#E5C890"  # yellow
 "editor.selection" = "#626880"
 "editor.current_line" = "#2C313C"
 "editor.link" = "#f2d5cf"
+"editor.visible_whitespace" = "$grey"
+"editor.indent_guide" = "$grey"
+"editor.drag_drop_background" = "#79c1fc55"
+"editor.drag_drop_tab_background" = "#0b0e1455"
+"editor.sticky_header_background" = "$black"
 
-"inlay_hint.foreground" = "#838ba7"
-"inlay_hint.background" = "#62688050"
+"inlay_hint.foreground" = "#51576d"
+"inlay_hint.background" = "#292c3c"
 
 "source_control.added" = "##a6d18932"
 "source_control.removed" = "#ea999c32"

@@ -20,30 +20,30 @@ cyan = "#179299"
 green = "#40A02B"
 grey = "#E5E5E6"
 magenta = "#EA76CB"
-orange = "#D19A66"
+orange = "#fe640b"
 purple = "#8839ef"
 red = "#D20F39"
 white = "#ACB0BE"
 yellow = "#DF8E1D"
 
 [color-theme.syntax]
-"comment" = "#8c8fa1"
-"constant" = "#fe640b"
-"type" = "$yellow"
+"comment" = "#9ca0b0"  #overlay0
+"constant" = "#fe640b" #peach
+"type" = "$yellow" 
 "typeAlias" = "$yellow"
 "number" = "$yellow"
 "enum" = "$yellow"
 "struct" = "$yellow"
 "structure" = "$yellow"
 "interface" = "$yellow"
-"attribute" = "$yellow"
-"constructor" = "$yellow"
+"attribute" = "$blue"
+"constructor" = "#209fb5" #sapphire
 
 "function" = "$blue"
 "method" = "$blue"
-"function.method" = "$blue"
+"function.method" = "#8839ef" #mauve
 
-"keyword" = "$purple"
+"keyword" = "#8839ef" #mauve
 "selfKeyword" = "$purple"
 
 "field" = "$red"
@@ -54,57 +54,58 @@ yellow = "#DF8E1D"
 "string" = "$green"
 "string.escape" = "$cyan"
 
-"type.builtin" = "#179299"
-"builtinType" = "#179299"
+"type.builtin" = "$red"
+"builtinType" = "$red"
 "escape" = "#179299"
 "embedded" = "#179299"
 
-"punctuation.delimiter" = "$yellow"
+"punctuation.delimiter" = "#7c7f93" #overlay2
 "text.title" = "$orange"
 "text.uri" = "$cyan"
 "text.reference" = "$yellow"
-"variable" = "$red"
-"variable.other.member" = "$green"
-"tag" = "$blue"
+"variable" = "#4c4f69" #text
+"variable.other.member" = "#179299" #teal
+"tag" = "#8839ef" #mauve
 
 
 [color-theme.ui]
 "lapce.error" = "$red"
-"lapce.warn" = "#E9A700"
-"lapce.dropdown_shadow" = "#B4B4B4"
-"lapce.border" = "#B4B4B4"
-"lapce.scroll_bar" = "#9ca0b0"
+"lapce.warn" = "$yellow"
+"lapce.dropdown_shadow" = "#acb0be" #surface2
+"lapce.border" = "#acb0be" #surface2
+"lapce.scroll_bar" = "#ccd0da" #surface0
 
-"lapce.button.primary.background" = "$green"
-"lapce.button.primary.foreground" = "$white"
+"lapce.button.primary.background" = "#8839ef" #mauve
+"lapce.button.primary.foreground" = "#eff1f5" #base
 
 # tab
-"lapce.tab.active.background" = "#e6e9ef"
-"lapce.tab.active.foreground" = "$black"
-"lapce.tab.active.underline" = "#528BFF"
+"lapce.tab.active.background" = "#eff1f5" #base
+"lapce.tab.active.foreground" = "#8839ef" #mauve
+"lapce.tab.active.underline" = "#8839ef" #mauve
 
-"lapce.tab.inactive.background" = "#e6e9ef"
-"lapce.tab.inactive.foreground" = "$black"
-"lapce.tab.inactive.underline" = "#528BFF77"
+"lapce.tab.inactive.background" = "#e6e9ef" #mantle
+"lapce.tab.inactive.foreground" = "#6c6f85" #subtext0
+"lapce.tab.inactive.underline" = "#6c6f85" #subtext0
 
-"lapce.tab.separator" = "#B4B4B4"
+"lapce.tab.separator" = "#6c6f85" #crust
 
 "lapce.icon.active" = "$black"
-"lapce.icon.inactive" = "#A0A1A7"
+"lapce.icon.inactive" = "#acb0be"
 
-"lapce.remote.local" = "#4078F2"
-"lapce.remote.connected" = "#50A14F"
-"lapce.remote.connecting" = "#C18401"
-"lapce.remote.disconnected" = "#E45649"
+"lapce.remote.icon" = "#8839ef"
+"lapce.remote.local" = "#ccd0da" #surface0
+"lapce.remote.connected" = "$green"
+"lapce.remote.connecting" = "$yellow"
+"lapce.remote.disconnected" = "$red"
 
-"lapce.plugin.name" = "#444444"
-"lapce.plugin.description" = "$black"
-"lapce.plugin.author" = "#707070"
+"lapce.plugin.name" = "#4c4f69" #text
+"lapce.plugin.description" = "#5c5f77" #subtext1
+"lapce.plugin.author" = "#6c6f85" #subtext0
 
 
-"terminal.cursor" = "#dc8a78"
-"terminal.foreground" = "#4c4f69"
-"terminal.background" = "#eff1f5"
+"terminal.cursor" = "$black"
+"terminal.foreground" = "#4c4f69" #text
+"terminal.background" = "#eff1f5" #base
 "terminal.white" = "#acb0be"
 "terminal.black" = "#5c5f77"
 "terminal.red" = "#d20f39"
@@ -122,22 +123,22 @@ yellow = "#DF8E1D"
 "terminal.bright_magenta" = "#ea76cb"
 "terminal.bright_black" = "#6c6f85"
 
-"editor.background" = "#eff1f5"
-"editor.foreground" = "#4c4f69"
-"editor.dim" = "#8c8fa1"
-"editor.focus" = "#000000"
+"editor.background" = "#eff1f5" #base
+"editor.foreground" = "#4c4f69" #text
+"editor.dim" = "#8c8fa1" #overlay1
+"editor.focus" = "#7c7f93" #overlay2 
 "editor.caret" = "#526FFF"
-"editor.selection" = "#acb0be"
-"editor.current_line" = "#E4E4E6"
-"editor.link" = "#dc8a78"
+"editor.selection" = "#ACB0BE" #surface2
+"editor.current_line" = "#E3E6EB"
+"editor.link" = "$blue"
 "editor.visible_whitespace" = "$grey"
-"editor.indent_guide" = "$grey"
-"editor.drag_drop_background" = "#79c1fc33"
-"editor.drag_drop_tab_background" = "#0b0e1433"
-"editor.sticky_header_background" = "$grey"
+"editor.indent_guide" = "#ccd0da" #surface0
+"editor.drag_drop_background" = "##04a5e533" #sky
+"editor.drag_drop_tab_background" = "##8c8fa133" #overlay1
+"editor.sticky_header_background" = "#EFF1F5" #base
 
-"inlay_hint.foreground" = "#bcc0cc"
-"inlay_hint.background" = "#e6e9ef"
+"inlay_hint.foreground" = "#bcc0cc" #surface1
+"inlay_hint.background" = "#e6e9ef" #mantle
 
 "error_lens.error.foreground" = "$red"
 "error_lens.error.background" = "#E4564920"
@@ -146,12 +147,12 @@ yellow = "#DF8E1D"
 "error_lens.other.foreground" = "#A0A1A7"
 "error_lens.other.background" = "#A0A1A720"
 
-"source_control.added" = "#50A14F32"
-"source_control.removed" = "#FF526632"
-"source_control.modified" = "#0184BC32"
+"source_control.added" = "#40a02b32"
+"source_control.removed" = "#d20f3932"
+"source_control.modified" = "#1e66f532"
 
-"palette.background" = "#EAEAEB"
-"palette.foreground" = "$black"
+"palette.background" = "#ccd0da" #surface0
+"palette.foreground" = "#4c4f69" #text
 "palette.current.background" = "#DBDBDC"
 "palette.current.foreground" = "$black"
 
@@ -163,6 +164,9 @@ yellow = "#DF8E1D"
 "activity.background" = "#e6e9ef"
 "activity.current" = "#dc8a78"
 
+"debug.breakpoint" = "$red"
+"debug.breakpoint.hover" = "$grey"
+
 "panel.background" = "#e6e9ef"
 "panel.foreground" = "#4c4f69"
 "panel.foreground.dim" = "#A0A1A7"
@@ -170,19 +174,20 @@ yellow = "#DF8E1D"
 "panel.current.foreground" = "#4c4f69"
 "panel.current.foreground.dim" = "#A0A1A7"
 "panel.hovered.background" = "#E4E4E6"
+"panel.hovered.active.background" = "#5c6370"
 "panel.hovered.foreground" = "#4c4f69"
 "panel.hovered.foreground.dim" = "#A0A1A7"
 
-"status.background" = "#e6e9ef"
-"status.foreground" = "$black"
-"status.modal.normal.background" = "$blue"
-"status.modal.normal.foreground" = "$white"
-"status.modal.insert.background" = "$red"
-"status.modal.insert.foreground" = "$white"
-"status.modal.visual.background" = "$yellow"
-"status.modal.visual.foreground" = "$white"
+"status.background" = "#e6e9ef" #mantle
+"status.foreground" = "#5c5f77" #subtext1
+"status.modal.normal.background" = "#7287fd" #lavender
+"status.modal.normal.foreground" = "#eff1f5" #base
+"status.modal.insert.background" = "$green"
+"status.modal.insert.foreground" = "#eff1f5"
+"status.modal.visual.background" = "#dd7878" #flamingo
+"status.modal.visual.foreground" = "#eff1f5"
 "status.modal.terminal.background" = "$purple"
-"status.modal.terminal.foreground" = "$white"
+"status.modal.terminal.foreground" = "#eff1f5"
 
 
 

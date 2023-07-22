@@ -89,8 +89,8 @@ yellow = "#EED49F"  # yellow
 "lapce.border" = "#1e2030"
 "lapce.scroll_bar" = "#6e738d"
 
-"lapce.button.primary.background" = "$green"
-"lapce.button.primary.foreground" = "$black"
+"lapce.button.primary.background" = "$purple"
+"lapce.button.primary.foreground" = "#24273a"
 
 # tab
 "lapce.tab.active.background" = "#1e2030"
@@ -106,8 +106,8 @@ yellow = "#EED49F"  # yellow
 "lapce.icon.active" = "$white"
 "lapce.icon.inactive" = "#5C6370"
 
-"lapce.remote.icon" = ""
-"lapce.remote.local" = "#4078F2"
+"lapce.remote.icon" = "$purple"
+"lapce.remote.local" = "$black"
 "lapce.remote.connected" = "#50A14F"
 "lapce.remote.connecting" = "#C18401"
 "lapce.remote.disconnected" = "#E45649"

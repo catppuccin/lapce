@@ -50,8 +50,8 @@ white = "#BAC2DE"   # subtext1
 yellow = "#F9E2AF"  # yellow
 
 [color-theme.syntax]
-"comment" = "#7f849c"
-"constant" = "$yellow"
+"comment" = "#6c7086" #overlay0
+"constant" = "#fab387" #peach
 "type" = "$yellow"
 "typeAlias" = "$yellow"
 "number" = "$yellow"
@@ -60,14 +60,14 @@ yellow = "#F9E2AF"  # yellow
 "structure" = "$yellow"
 "interface" = "$yellow"
 "attribute" = "$yellow"
-"constructor" = "$yellow"
+"constructor" = "#74c7ec" #sapphire
 
 "function" = "$blue"
 "method" = "$blue"
-"function.method" = "$blue"
+"function.method" = "#cba6f7"
 
-"keyword" = "#cba6f7"
-"selfKeyword" = "#cba6f7"
+"keyword" = "#cba6f7" #mauve
+"selfKeyword" = "$purple"
 
 "field" = "$red"
 "property" = "$red"
@@ -77,45 +77,46 @@ yellow = "#F9E2AF"  # yellow
 "string" = "$green"
 "string.escape" = "$cyan"
 
-"type.builtin" = "#94e2d5" #teal
-"builtinType" = "#94e2d5"  #teal
+"type.builtin" = "$red" #teal
+"builtinType" = "$red"  #teal
 "escape" = "#94e2d5"       #teal
 "embedded" = "#94e2d5"     #teal
 
-"punctuation.delimiter" = "$yellow"
+"punctuation.delimiter" = "#9399b2" #overlay2
 "text.title" = "$orange"
 "text.uri" = "$cyan"
 "text.reference" = "$yellow"
 "variable" = "$red"
 "variable.other.member" = "$green"
-"tag" = "$blue"
+"tag" = "#cba6f7" #mauve
 
 
 [color-theme.ui]
 "lapce.error" = "$red"
 "lapce.warn" = "$yellow"
-"lapce.dropdown_shadow" = "#181825"
-"lapce.border" = "#181825"
-"lapce.scroll_bar" = "#6c7086"
+"lapce.dropdown_shadow" = "#585b70" #surface2
+"lapce.border" = "#585b70"
+"lapce.scroll_bar" = "#313244" #surface0
 
-"lapce.button.primary.background" = "$green"
-"lapce.button.primary.foreground" = "$black"
+"lapce.button.primary.background" = "#cba6f7" #mauve
+"lapce.button.primary.foreground" = "#1e1e2e" #base
 
 # tab
-"lapce.tab.active.background" = "#181825"
-"lapce.tab.active.foreground" = "$white"
-"lapce.tab.active.underline" = "$blue"
+"lapce.tab.active.background" = "#1e1e2e" #base
+"lapce.tab.active.foreground" = "#cba6f7"
+"lapce.tab.active.underline" = "#cba6f7"
 
-"lapce.tab.inactive.background" = "#181825"
-"lapce.tab.inactive.foreground" = "$white"
-"lapce.tab.inactive.underline" = "#528BFF77"
+"lapce.tab.inactive.background" = "#1e1e2e" #base
+"lapce.tab.inactive.foreground" = "#a6adc8"
+"lapce.tab.inactive.underline" = "#a6adc8"
 
-"lapce.tab.separator" = ""
+"lapce.tab.separator" = "#11111b"
 
 "lapce.icon.active" = "$white"
 "lapce.icon.inactive" = "#5C6370"
 
-"lapce.remote.local" = "#4078F2"
+"lapce.remote.icon" = "$purple"
+"lapce.remote.local" = "#11111b"
 "lapce.remote.connected" = "#50A14F"
 "lapce.remote.connecting" = "#C18401"
 "lapce.remote.disconnected" = "#E45649"
@@ -157,6 +158,10 @@ yellow = "#F9E2AF"  # yellow
 "activity.background" = "#181825"
 "activity.current" = "#11111b"
 
+
+"debug.breakpoint" = "$red"
+"debug.breakpoint.hover" = "$grey"
+
 "panel.background" = "#181825"
 "panel.foreground" = "#cdd6f4"
 "panel.foreground.dim" = "#A0A1A7"
@@ -164,6 +169,7 @@ yellow = "#F9E2AF"  # yellow
 "panel.current.foreground" = "#cdd6f4"
 "panel.current.foreground.dim" = "#A0A1A7"
 "panel.hovered.background" = "#11111b"
+"panel.hovered.active.background" = "#5C6370"
 "panel.hovered.foreground" = "#cdd6f4"
 "panel.hovered.foreground.dim" = "#A0A1A7"
 
